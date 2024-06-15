@@ -21,6 +21,5 @@ columns = ["firstname","middlename","lastname","dob","gender","salary"]
 df = spark.createDataFrame(data=data, schema = columns)
 print("The dataframe has been created.")
 
-
 #some code goes here
 #some code added by Aditya
