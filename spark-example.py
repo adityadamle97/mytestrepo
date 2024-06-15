@@ -19,3 +19,5 @@ data = [('James','','Smith','1991-04-01','M',3000),
 
 columns = ["firstname","middlename","lastname","dob","gender","salary"]
 df = spark.createDataFrame(data=data, schema = columns)
+
+#some code goes here
