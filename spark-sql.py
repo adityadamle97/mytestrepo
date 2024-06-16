@@ -21,3 +21,4 @@ val edges = spark.createDataFrame(Seq(
   (1, 2, "friend"),
   (2, 3, "follow")
 )).toDF("src", "dst", "relationship")
+
